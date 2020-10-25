@@ -884,9 +884,13 @@ textarea {
 /* ==========================================================================
    Header
    ========================================================================== */
+.content.newsletter {
+	padding-top: calc(16rem);
+}
+
 .blog-header {
 	position: relative;
-	padding-top: calc(16rem + 4vw);
+	padding-top: calc(16rem);
 
 	&.has-cover {
 		padding-top: calc(24rem + 8vw);
@@ -1782,7 +1786,7 @@ textarea {
    ========================================================================== */
 .post-header {
 	position: relative;
-	padding: calc(16rem + 4vw) 0 calc(2rem + 2vw);
+	padding: calc(16rem) 0;
 }
 
 .post-header.has-cover {
